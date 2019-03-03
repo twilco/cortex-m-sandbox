@@ -1,0 +1,15 @@
+[package]
+name = "aux"
+version = "0.1.0"
+authors = ["Tyler Wilcock <tyler.l.wilcock@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+cortex-m = "0.5.8"
+panic-halt = "0.2.0"
+cortex-m-rt = "0.6.7"
+
+[dependencies.stm32l4xx-hal]
+features = ["rt", "stm32l4x3"]
+version = "0.3.6"
+
